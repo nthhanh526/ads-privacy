@@ -70,13 +70,25 @@ experiments that minimize user data sharing and better protect user privacy.
 These conceptual discussions around additional ideas, modifications, and extensions to the privacy sandbox include:
  
 * [Dovekey](proposals/dovekey)
+* [Augury API](proposals/augury)
+* [SCAUP](proposals/scaup)
+* [Browser Enforced Frequency Capping](proposals/browser-frequency-capping)
  
 ## Experiments
 
 These are experiment proposals we are evaluating to test approaches to strengthen user privacy protections in RTB:
 
 * [TURTLEDOVE simulation](experiments/turtledove-simulation)
+* [Evaluate the impact of the TURTLEDOVE micro-targeting protections](experiments/microtargeting-protections)
 * [Frequency Capping](experiments/frequency-capping)
 * [Structured User Agent](experiments/structured-ua)
 * [Structured Geolocation](experiments/structured-geo)
+* [Exchange-assisted invalid traffic filtering](experiments/exchange-assisted-ivt)
 
+## Server trust models
+
+Possible approaches to defining and implementing trust models for remote
+servers.
+
+* [Server trust model techniques](trust-model/trust_techniques.md)
+* [Trusted Execution Environments and Sandboxes](trust-model/tee)
